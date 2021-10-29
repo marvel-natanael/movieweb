@@ -1,0 +1,104 @@
+body {
+    background: #203541;
+    font-family: 'Poppins';
+    font-size: 22px;
+}
+.bg img{
+    width: 100%;
+    object-fit: cover;
+    height: 400px;
+}
+
+.content{
+    width: 80%;
+    background: #203541;
+    height: 400px;
+    padding-top: 36px;
+    padding-left: 5%;
+    padding-right: 15%;
+}
+
+.content .info{
+    width: 50%;
+    float: left;
+}
+
+.content h2{
+    font-size: 42px;
+    color: white;
+    font-weight: bold;
+}
+
+.content h4{
+    font-size: 20px;
+    color: white;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+.content p{
+    width: 100%;
+    font-size: 16px;
+    color: white;
+    margin-top: 24px;
+
+}
+
+.content button{
+    padding: 12px;
+    background: #EE2B47;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: unset;
+    width: 120px;
+    margin-top: 24px;
+    border-radius: 20px;
+}
+
+.content .img-movie{
+    width: 50%;
+    float: left;
+}
+
+.content .img-movie img{
+    float: right;
+    width: 200px;
+}
+
+
+.footer{
+    display: block;
+    width: 85%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.footer .logo-footer{
+    width: 50%;
+    float: left;
+}
+
+.footer .about{
+    width: 50%;
+    float: left;
+    margin-top: 128px;
+}
+
+.footer .about table{
+    float: right;
+}
+
+.about table tr td{
+    margin-top: 0;
+    list-style: none;
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+
+.about table tr td a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
